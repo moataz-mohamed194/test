@@ -1,0 +1,52 @@
+name: based_of_eng_game
+description: "based of eng game"
+version: 0.2.8+4
+homepage: https://github.com/moataz-mohamed194/based_of_eng_game.git
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.4
+  dartz: ^0.10.1
+  flame_rive: ^1.10.2
+  equatable: ^2.0.5
+#  games_models: ^0.0.6
+  audioplayers: ^6.0.0
+  flutter_bloc: ^8.1.5
+  flutter_svg: ^2.0.10+1
+  flutter_screenutil: ^5.9.3
+  flutter_tts: ^4.0.2
+  cached_network_image: ^3.3.1
+  video_player: ^2.8.7
+  cubixd: ^0.1.1
+  json_annotation: ^4.9.0
+  dotted_border: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.9
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # To add assets to your package, add an assets section, like this:
+  #   - images/a_dot_ham.jpeg
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
